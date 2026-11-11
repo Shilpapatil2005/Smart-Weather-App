@@ -1,0 +1,707 @@
+11-Nov-2026 00:08:01.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 00:08:01.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 00:08:01.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 00:08:01.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 00:08:01.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 00:08:01.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 00:08:01.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 00:08:01.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 00:08:01.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 00:08:01.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:08:01.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:08:01.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 00:08:01.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 00:08:01.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 00:08:01.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 00:08:01.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 00:08:01.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 00:08:01.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 00:08:01.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 00:08:01.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 00:08:01.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 00:08:01.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 00:08:01.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:08:01.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:08:01.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 00:08:01.375 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 00:08:01.390 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 00:08:01.908 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:08:01.953 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [964] milliseconds
+11-Nov-2026 00:08:02.031 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 00:08:02.031 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 00:08:02.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 00:08:02.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [607] ms
+11-Nov-2026 00:08:02.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 00:08:03.695 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [1,018] ms
+11-Nov-2026 00:08:03.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 00:08:03.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [86] ms
+11-Nov-2026 00:08:03.788 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 00:08:03.863 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [75] ms
+11-Nov-2026 00:08:03.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 00:08:03.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [61] ms
+11-Nov-2026 00:08:03.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 00:08:04.120 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 00:08:04.133 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [207] ms
+11-Nov-2026 00:08:04.141 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:08:04.183 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2227] milliseconds
+11-Nov-2026 00:21:26.973 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Nov-2026 00:21:26.996 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:21:27.026 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Nov-2026 00:21:27.137 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:21:27.168 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:21:33.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 00:21:33.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 00:21:33.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 00:21:33.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 00:21:33.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 00:21:33.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 00:21:33.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 00:21:33.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 00:21:33.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 00:21:33.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:21:33.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:21:33.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 00:21:33.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 00:21:33.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 00:21:33.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 00:21:33.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 00:21:33.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 00:21:33.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 00:21:33.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 00:21:33.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 00:21:33.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 00:21:33.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 00:21:33.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:21:33.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:21:33.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 00:21:33.716 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 00:21:33.729 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 00:21:34.267 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:21:34.323 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [934] milliseconds
+11-Nov-2026 00:21:34.395 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 00:21:34.396 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 00:21:34.418 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 00:21:34.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [509] ms
+11-Nov-2026 00:21:34.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 00:21:35.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [1,024] ms
+11-Nov-2026 00:21:35.958 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 00:21:36.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [98] ms
+11-Nov-2026 00:21:36.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 00:21:36.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [79] ms
+11-Nov-2026 00:21:36.137 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 00:21:36.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [58] ms
+11-Nov-2026 00:21:36.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 00:21:36.488 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 00:21:36.500 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [305] ms
+11-Nov-2026 00:21:36.506 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:21:36.551 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2223] milliseconds
+11-Nov-2026 00:21:53.103 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Nov-2026 00:21:53.104 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:21:53.117 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Nov-2026 00:21:53.156 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:21:53.162 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:21:59.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 00:21:59.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 00:21:59.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 00:21:59.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 00:21:59.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 00:21:59.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 00:21:59.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 00:21:59.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 00:21:59.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 00:21:59.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:21:59.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:21:59.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 00:21:59.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 00:21:59.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 00:21:59.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 00:21:59.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 00:21:59.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 00:21:59.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 00:21:59.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 00:21:59.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 00:21:59.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 00:21:59.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 00:21:59.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:21:59.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:21:59.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 00:21:59.840 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 00:21:59.852 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 00:22:00.367 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:22:00.412 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [886] milliseconds
+11-Nov-2026 00:22:00.496 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 00:22:00.497 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 00:22:00.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 00:22:01.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [515] ms
+11-Nov-2026 00:22:01.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 00:22:02.004 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [953] ms
+11-Nov-2026 00:22:02.004 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 00:22:02.083 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [79] ms
+11-Nov-2026 00:22:02.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 00:22:02.161 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [78] ms
+11-Nov-2026 00:22:02.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 00:22:02.231 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [68] ms
+11-Nov-2026 00:22:02.231 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 00:22:02.541 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 00:22:02.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [325] ms
+11-Nov-2026 00:22:02.563 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:22:02.610 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2195] milliseconds
+11-Nov-2026 00:22:20.974 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Nov-2026 00:22:20.977 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:22:20.990 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Nov-2026 00:22:21.029 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:22:21.039 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:22:27.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 00:22:27.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 00:22:27.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 00:22:27.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 00:22:27.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 00:22:27.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 00:22:27.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 00:22:27.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 00:22:27.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 00:22:27.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:22:27.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:22:27.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 00:22:27.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 00:22:27.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 00:22:27.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 00:22:27.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 00:22:27.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 00:22:27.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 00:22:27.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 00:22:27.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 00:22:27.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 00:22:27.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 00:22:27.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:22:27.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:22:27.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 00:22:27.676 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 00:22:27.688 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 00:22:28.100 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:22:28.133 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [777] milliseconds
+11-Nov-2026 00:22:28.205 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 00:22:28.206 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 00:22:28.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 00:22:28.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [504] ms
+11-Nov-2026 00:22:28.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 00:22:29.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [959] ms
+11-Nov-2026 00:22:29.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 00:22:29.781 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [75] ms
+11-Nov-2026 00:22:29.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 00:22:29.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [77] ms
+11-Nov-2026 00:22:29.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 00:22:29.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [58] ms
+11-Nov-2026 00:22:29.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 00:22:30.217 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 00:22:30.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [310] ms
+11-Nov-2026 00:22:30.235 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:22:30.274 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2137] milliseconds
+11-Nov-2026 00:39:25.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 00:39:25.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 00:39:25.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 00:39:25.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 00:39:25.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 00:39:25.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 00:39:25.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 00:39:25.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 00:39:25.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 00:39:25.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:39:25.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:39:25.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 00:39:25.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 00:39:25.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 00:39:25.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 00:39:25.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 00:39:25.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 00:39:25.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 00:39:25.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 00:39:25.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 00:39:25.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 00:39:25.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 00:39:25.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:39:25.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:39:25.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 00:39:25.610 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 00:39:25.622 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 00:39:26.153 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:39:26.198 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [956] milliseconds
+11-Nov-2026 00:39:26.278 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 00:39:26.279 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 00:39:26.298 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 00:39:26.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [514] ms
+11-Nov-2026 00:39:26.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 00:39:27.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [969] ms
+11-Nov-2026 00:39:27.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 00:39:27.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [88] ms
+11-Nov-2026 00:39:27.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 00:39:27.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [86] ms
+11-Nov-2026 00:39:27.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 00:39:28.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [60] ms
+11-Nov-2026 00:39:28.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 00:39:28.334 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 00:39:28.348 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [325] ms
+11-Nov-2026 00:39:28.355 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:39:28.397 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2192] milliseconds
+11-Nov-2026 00:55:47.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 00:55:47.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 00:55:47.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 00:55:47.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 00:55:47.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 00:55:47.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 00:55:47.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 00:55:47.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 00:55:47.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 00:55:47.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:55:47.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:55:47.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 00:55:47.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 00:55:47.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 00:55:47.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 00:55:47.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 00:55:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 00:55:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 00:55:47.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 00:55:47.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 00:55:47.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 00:55:47.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 00:55:47.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:55:47.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:55:47.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 00:55:47.849 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 00:55:47.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 00:55:48.434 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:55:48.461 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1312)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:543)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:962)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:865)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:333)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:494)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:378)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1938)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1956)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:959)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:95)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1310)
+		... 11 more
+11-Nov-2026 00:55:48.463 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1076] milliseconds
+11-Nov-2026 00:55:48.546 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 00:55:48.547 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 00:55:48.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 00:55:49.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [609] ms
+11-Nov-2026 00:55:49.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 00:55:50.350 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [1,163] ms
+11-Nov-2026 00:55:50.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 00:55:50.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [97] ms
+11-Nov-2026 00:55:50.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 00:55:50.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [99] ms
+11-Nov-2026 00:55:50.549 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 00:55:50.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [72] ms
+11-Nov-2026 00:55:50.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 00:55:50.985 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 00:55:51.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [379] ms
+11-Nov-2026 00:55:51.010 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2543] milliseconds
+11-Nov-2026 00:55:51.026 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.Net.bind(Net.java:514)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:641)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:536)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:994)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:943)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+11-Nov-2026 00:55:51.029 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:55:51.029 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Nov-2026 00:55:51.066 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:55:51.067 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:58:26.192 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Nov-2026 00:58:26.246 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:58:26.266 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Nov-2026 00:58:26.444 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WeatherApp] registered the JDBC driver [org.sqlite.JDBC] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-Nov-2026 00:58:26.451 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:58:26.486 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:58:31.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 00:58:31.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 00:58:31.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 00:58:31.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 00:58:31.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 00:58:31.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 00:58:31.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 00:58:31.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 00:58:31.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 00:58:31.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:58:31.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:58:31.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 00:58:31.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 00:58:31.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 00:58:31.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 00:58:31.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 00:58:31.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 00:58:31.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 00:58:31.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 00:58:31.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 00:58:31.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 00:58:31.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 00:58:31.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:58:31.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 00:58:31.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 00:58:31.229 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 00:58:31.246 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 00:58:31.745 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:58:31.797 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [929] milliseconds
+11-Nov-2026 00:58:31.876 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 00:58:31.877 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 00:58:31.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 00:58:32.452 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [549] ms
+11-Nov-2026 00:58:32.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 00:58:33.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [1,097] ms
+11-Nov-2026 00:58:33.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 00:58:33.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [89] ms
+11-Nov-2026 00:58:33.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 00:58:33.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [122] ms
+11-Nov-2026 00:58:33.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 00:58:33.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [76] ms
+11-Nov-2026 00:58:33.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 00:58:34.216 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 00:58:34.232 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [391] ms
+11-Nov-2026 00:58:34.240 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 00:58:34.293 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2492] milliseconds
+11-Nov-2026 01:11:00.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 01:11:00.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 01:11:00.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 01:11:00.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 01:11:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 01:11:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 01:11:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 01:11:00.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 01:11:00.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 01:11:00.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 01:11:00.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 01:11:00.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 01:11:00.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 01:11:00.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 01:11:00.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 01:11:00.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 01:11:00.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 01:11:00.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 01:11:00.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 01:11:00.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 01:11:00.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 01:11:00.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 01:11:00.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 01:11:00.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 01:11:00.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 01:11:00.410 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 01:11:00.425 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 01:11:01.031 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 01:11:01.063 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1312)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:543)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:962)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:865)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:333)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:494)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:378)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1938)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1956)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:959)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:95)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1310)
+		... 11 more
+11-Nov-2026 01:11:01.066 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1048] milliseconds
+11-Nov-2026 01:11:01.166 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 01:11:01.166 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 01:11:01.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 01:11:01.828 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [630] ms
+11-Nov-2026 01:11:01.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 01:11:02.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [1,142] ms
+11-Nov-2026 01:11:02.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 01:11:03.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [108] ms
+11-Nov-2026 01:11:03.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 01:11:03.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [92] ms
+11-Nov-2026 01:11:03.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 01:11:03.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [73] ms
+11-Nov-2026 01:11:03.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 01:11:03.620 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 01:11:03.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [385] ms
+11-Nov-2026 01:11:03.645 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2575] milliseconds
+11-Nov-2026 01:11:03.660 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.Net.bind(Net.java:514)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:641)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:536)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:994)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:943)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+11-Nov-2026 01:11:03.661 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 01:11:03.661 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Nov-2026 01:11:03.699 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 01:11:03.700 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 23:49:06.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 23:49:06.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 23:49:06.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 23:49:06.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 23:49:06.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 23:49:06.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 23:49:06.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 23:49:06.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 23:49:06.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 23:49:06.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:06.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:06.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 23:49:06.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 23:49:06.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 23:49:06.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 23:49:06.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 23:49:06.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 23:49:06.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 23:49:06.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 23:49:06.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 23:49:06.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 23:49:06.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 23:49:06.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:06.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:06.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 23:49:06.530 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 23:49:06.557 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 23:49:07.079 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 23:49:07.129 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1067] milliseconds
+11-Nov-2026 23:49:07.215 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 23:49:07.215 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 23:49:07.241 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 23:49:07.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [602] ms
+11-Nov-2026 23:49:07.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 23:49:09.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [1,201] ms
+11-Nov-2026 23:49:09.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 23:49:09.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [94] ms
+11-Nov-2026 23:49:09.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 23:49:09.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [97] ms
+11-Nov-2026 23:49:09.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 23:49:09.314 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [69] ms
+11-Nov-2026 23:49:09.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 23:49:09.675 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 23:49:09.691 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [375] ms
+11-Nov-2026 23:49:09.698 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 23:49:09.752 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2620] milliseconds
+11-Nov-2026 23:49:33.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 23:49:33.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 23:49:33.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 23:49:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 23:49:33.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 23:49:33.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 23:49:33.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 23:49:33.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 23:49:33.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 23:49:33.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:33.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:33.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 23:49:33.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 23:49:33.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 23:49:33.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 23:49:33.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 23:49:33.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 23:49:33.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 23:49:33.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 23:49:33.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 23:49:33.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 23:49:33.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 23:49:33.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:33.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:33.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 23:49:33.170 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 23:49:33.184 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 23:49:33.631 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 23:49:33.651 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1312)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:543)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:962)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:865)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:333)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:494)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:378)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1938)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1956)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:959)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:95)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1310)
+		... 11 more
+11-Nov-2026 23:49:33.670 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [867] milliseconds
+11-Nov-2026 23:49:33.738 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 23:49:33.738 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 23:49:33.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 23:49:34.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [501] ms
+11-Nov-2026 23:49:34.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 23:49:35.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [1,120] ms
+11-Nov-2026 23:49:35.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 23:49:35.496 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [110] ms
+11-Nov-2026 23:49:35.496 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 23:49:35.607 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [111] ms
+11-Nov-2026 23:49:35.608 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 23:49:35.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [67] ms
+11-Nov-2026 23:49:35.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 23:49:36.016 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 23:49:36.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [354] ms
+11-Nov-2026 23:49:36.038 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2365] milliseconds
+11-Nov-2026 23:49:36.051 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.Net.bind(Net.java:514)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:641)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:536)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:994)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:943)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+11-Nov-2026 23:49:36.053 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 23:49:36.053 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Nov-2026 23:49:36.109 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 23:49:36.110 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 23:49:42.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+11-Nov-2026 23:49:42.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+11-Nov-2026 23:49:42.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+11-Nov-2026 23:49:42.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Nov-2026 23:49:42.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Nov-2026 23:49:42.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Nov-2026 23:49:42.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-27.0.1.0.2
+11-Nov-2026 23:49:42.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           27.0.1.0.2+1-2
+11-Nov-2026 23:49:42.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Nov-2026 23:49:42.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:42.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:42.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\conf\logging.properties
+11-Nov-2026 23:49:42.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2026 23:49:42.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2026 23:49:42.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2026 23:49:42.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+11-Nov-2026 23:49:42.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2026 23:49:42.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+11-Nov-2026 23:49:42.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2026 23:49:42.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Nov-2026 23:49:42.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Nov-2026 23:49:42.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2026 23:49:42.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:42.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61
+11-Nov-2026 23:49:42.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\temp
+11-Nov-2026 23:49:42.080 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+11-Nov-2026 23:49:42.093 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+11-Nov-2026 23:49:42.560 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 23:49:42.586 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1312)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:543)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:962)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:865)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:333)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:494)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:378)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1938)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1956)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:959)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:95)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1310)
+		... 11 more
+11-Nov-2026 23:49:42.588 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [866] milliseconds
+11-Nov-2026 23:49:42.657 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Nov-2026 23:49:42.657 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+11-Nov-2026 23:49:42.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs]
+11-Nov-2026 23:49:43.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\docs] has finished in [508] ms
+11-Nov-2026 23:49:43.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples]
+11-Nov-2026 23:49:44.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\examples] has finished in [1,119] ms
+11-Nov-2026 23:49:44.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager]
+11-Nov-2026 23:49:44.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\host-manager] has finished in [99] ms
+11-Nov-2026 23:49:44.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager]
+11-Nov-2026 23:49:44.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\manager] has finished in [91] ms
+11-Nov-2026 23:49:44.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT]
+11-Nov-2026 23:49:44.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\ROOT] has finished in [65] ms
+11-Nov-2026 23:49:44.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp]
+11-Nov-2026 23:49:44.913 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Nov-2026 23:49:44.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Downloads\weather-app-javaServletJSP-main\weather-app-javaServletJSP-main\apache-tomcat\apache-tomcat-10.1.61\webapps\WeatherApp] has finished in [359] ms
+11-Nov-2026 23:49:44.933 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2342] milliseconds
+11-Nov-2026 23:49:44.960 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.Net.bind(Net.java:514)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:641)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:536)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:994)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:943)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+11-Nov-2026 23:49:44.963 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 23:49:44.963 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Nov-2026 23:49:44.997 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Nov-2026 23:49:44.998 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
